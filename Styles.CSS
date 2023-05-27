@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,300;1,700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 0, 255);
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: rgb(4, 97, 91)
+    text-align: center;
+    line-height: 16px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+
+.row {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ /* NAVIGATION BAR  */
+
+ nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav__link--list {
+display: flex;
+}
+
+.nav__link--anchor {
+    margin:0 12px;
+    color: rgb(135, 203, 217);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav__link--anchor-primary {
+    background-color: rgb(0, 98, 255);
+    padding: 8px 20px;
+    border-radius: 60px;
+    color: rgb(127, 229, 255);
+    transition: all 500ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+background-color: rgb(127, 229, 255);
+color: rgba(224, 71, 238, 0.705);
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: rgb(127, 229, 255);
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+ /* ABOUT ME */
+
+ #about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .about-me__picture--mask {
+    width: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+
+ .about-me__picture
